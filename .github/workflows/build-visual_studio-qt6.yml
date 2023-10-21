@@ -1,8 +1,8 @@
 name: Build Chiaki (VC Qt6)
 
 on:
-  workflow_dispatch:
-  # workflow_call: #testing!
+  # workflow_dispatch:
+  workflow_call: #testing!
 
   # TODO: https://www.qt.io/blog/qt-multimedia-in-qt-6
   # Not as easy as updating a cmakelists.txt file :(
